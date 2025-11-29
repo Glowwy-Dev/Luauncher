@@ -159,7 +159,7 @@ fn install_update(old_path: String) -> Result<(), Box<dyn std::error::Error>> {
     print!("\rPreparing to download...");
     let client = Client::new();
     let release: Release = client
-        .get("https://api.github.com/repos/GlowyGhost/Luauncher/releases/latest")
+        .get("https://api.github.com/repos/Glowwy-Dev/Luauncher/releases/latest")
         .header("User-Agent", "Luauncher-Updater")
         .send()?
         .json()?;
@@ -388,7 +388,7 @@ fn update(old_path: String) -> Result<(), Box<dyn std::error::Error>> {
     println!();
 
     println!("MIT License:");
-    println!("Copyright (c) 2025 GlowyGhost
+    println!("Copyright (c) 2025 Glowwy-Dev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the \"Software\"), to deal
