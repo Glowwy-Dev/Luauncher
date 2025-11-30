@@ -71,7 +71,7 @@ class _LauncherWindowState extends State<LauncherWindow> {
                             : Colors.black
                           ),
                           onPressed: () async {
-                            await tauriInvoke("open_link", {"url": "https://github.com/GlowyGhost/Luauncher"});
+                            await tauriInvoke("open_link", {"url": "https://github.com/GlowyDeveloper/Luauncher"});
                           },
                         )
                       ],
